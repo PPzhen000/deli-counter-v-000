@@ -8,7 +8,7 @@ def line(array)
       result = result << " #{index+1}. #{e}"
     end
   end
-  return result
+  puts result
 end
 
 def take_a_number(array, name)
