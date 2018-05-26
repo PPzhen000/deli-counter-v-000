@@ -1,11 +1,12 @@
 def line(array)
   if array.size == 0
-    puts "The line is currently empty"
+    result = "The line is currently empty"
   else
     array.each_with_index do|e, index|
-      "The line is currently:" << " #{index+1}. #{e}"
+      result = "The line is currently:" << " #{index+1}. #{e}"
     end
   end
+  return result 
 end
 
 def take_a_number(array, name)
