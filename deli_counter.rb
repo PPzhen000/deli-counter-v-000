@@ -3,8 +3,9 @@ def line(array)
   if array.size == 0
     result = "The line is currently empty."
   else
+    result = "The line is currently:"
     array.each_with_index do|e, index|
-      result = "The line is currently:" << " #{index+1}. #{e}"
+      result = result << " #{index+1}. #{e}"
     end
   end
   return result
