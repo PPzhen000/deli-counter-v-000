@@ -6,7 +6,7 @@ def line(array)
       result = "The line is currently:" << " #{index+1}. #{e}"
     end
   end
-  return result 
+  return result
 end
 
 def take_a_number(array, name)
