@@ -1,4 +1,5 @@
 def line(array)
+  result = ""
   if array.size == 0
     result = "The line is currently empty."
   else
